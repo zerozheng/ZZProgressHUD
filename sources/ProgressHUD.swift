@@ -781,7 +781,7 @@ extension ProgressHUD {
         let hud = ProgressHUD(view: view)
         hud.mode = .customView
         hud.label.text = text
-        hud.customView = UIImageView(image: UIImage(named: "ProgressHUD.bundle/\(icon)"))
+        hud.customView = UIImageView(image: UIImage(named: "icon"))
         hud.removeFromSuperViewOnHide = true
         view.addSubview(hud)
         hud.show(animated: true)
@@ -789,11 +789,11 @@ extension ProgressHUD {
     }
     
     class public func showError(_ error: String, to view: UIView) {
-        self.show(text: error, icon: "error.png", to: view)
+        self.show(text: error, icon: "ProgressHUD_error.png", to: view)
     }
     
     class public func showSuccess(_ success: String, to view: UIView) {
-        self.show(text: success, icon: "success.png", to: view)
+        self.show(text: success, icon: "ProgressHUD_success.png", to: view)
     }
     
     class public func showMessage(_ message: String, to view: UIView) -> ProgressHUD {

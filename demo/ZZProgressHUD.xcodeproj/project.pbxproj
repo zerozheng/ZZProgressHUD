@@ -15,7 +15,6 @@
 		DAF082A61E2F42FD00365CAD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A11E2F42FD00365CAD /* RoundedButton.swift */; };
 		DAF082A71E2F42FD00365CAD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A21E2F42FD00365CAD /* BackgroundView.swift */; };
 		DAF082A81E2F42FD00365CAD /* BarProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A31E2F42FD00365CAD /* BarProgressView.swift */; };
-		DAF082A91E2F42FD00365CAD /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAF082A41E2F42FD00365CAD /* ProgressHUD.bundle */; };
 		DAF082AA1E2F42FD00365CAD /* RoundProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A51E2F42FD00365CAD /* RoundProgressView.swift */; };
 		DAF082AC1E2F437200365CAD /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082AB1E2F437200365CAD /* ProgressHUD.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 		DAF082A11E2F42FD00365CAD /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		DAF082A21E2F42FD00365CAD /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		DAF082A31E2F42FD00365CAD /* BarProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarProgressView.swift; sourceTree = "<group>"; };
-		DAF082A41E2F42FD00365CAD /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		DAF082A51E2F42FD00365CAD /* RoundProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundProgressView.swift; sourceTree = "<group>"; };
 		DAF082AB1E2F437200365CAD /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,10 +82,10 @@
 				DAF082A11E2F42FD00365CAD /* RoundedButton.swift */,
 				DAF082A21E2F42FD00365CAD /* BackgroundView.swift */,
 				DAF082A31E2F42FD00365CAD /* BarProgressView.swift */,
-				DAF082A41E2F42FD00365CAD /* ProgressHUD.bundle */,
 				DAF082A51E2F42FD00365CAD /* RoundProgressView.swift */,
 			);
-			path = sources;
+			name = sources;
+			path = ../../sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +147,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF082A91E2F42FD00365CAD /* ProgressHUD.bundle in Resources */,
 				DAF082991E2F426C00365CAD /* LaunchScreen.storyboard in Resources */,
 				DAF082961E2F426C00365CAD /* Assets.xcassets in Resources */,
 				DAF082941E2F426C00365CAD /* Main.storyboard in Resources */,
