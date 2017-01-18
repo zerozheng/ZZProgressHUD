@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF0828F1E2F426C00365CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0828E1E2F426C00365CAD /* AppDelegate.swift */; };
+		DAF082911E2F426C00365CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082901E2F426C00365CAD /* ViewController.swift */; };
+		DAF082941E2F426C00365CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF082921E2F426C00365CAD /* Main.storyboard */; };
+		DAF082961E2F426C00365CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF082951E2F426C00365CAD /* Assets.xcassets */; };
+		DAF082991E2F426C00365CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF082971E2F426C00365CAD /* LaunchScreen.storyboard */; };
+		DAF082A61E2F42FD00365CAD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A11E2F42FD00365CAD /* RoundedButton.swift */; };
+		DAF082A71E2F42FD00365CAD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A21E2F42FD00365CAD /* BackgroundView.swift */; };
+		DAF082A81E2F42FD00365CAD /* BarProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A31E2F42FD00365CAD /* BarProgressView.swift */; };
+		DAF082A91E2F42FD00365CAD /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAF082A41E2F42FD00365CAD /* ProgressHUD.bundle */; };
+		DAF082AA1E2F42FD00365CAD /* RoundProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082A51E2F42FD00365CAD /* RoundProgressView.swift */; };
+		DAF082AC1E2F437200365CAD /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF082AB1E2F437200365CAD /* ProgressHUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAF0828B1E2F426C00365CAD /* ProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF0828E1E2F426C00365CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAF082901E2F426C00365CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAF082931E2F426C00365CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF082951E2F426C00365CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF082981E2F426C00365CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF0829A1E2F426C00365CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF082A11E2F42FD00365CAD /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		DAF082A21E2F42FD00365CAD /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		DAF082A31E2F42FD00365CAD /* BarProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarProgressView.swift; sourceTree = "<group>"; };
+		DAF082A41E2F42FD00365CAD /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		DAF082A51E2F42FD00365CAD /* RoundProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundProgressView.swift; sourceTree = "<group>"; };
+		DAF082AB1E2F437200365CAD /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF082881E2F426C00365CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF082821E2F426C00365CAD = {
+			isa = PBXGroup;
+			children = (
+				DAF0828D1E2F426C00365CAD /* ProgressHUD */,
+				DAF0828C1E2F426C00365CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF0828C1E2F426C00365CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF0828B1E2F426C00365CAD /* ProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF0828D1E2F426C00365CAD /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DAF082A01E2F429000365CAD /* sources */,
+				DAF0828E1E2F426C00365CAD /* AppDelegate.swift */,
+				DAF082901E2F426C00365CAD /* ViewController.swift */,
+				DAF082921E2F426C00365CAD /* Main.storyboard */,
+				DAF082951E2F426C00365CAD /* Assets.xcassets */,
+				DAF082971E2F426C00365CAD /* LaunchScreen.storyboard */,
+				DAF0829A1E2F426C00365CAD /* Info.plist */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		DAF082A01E2F429000365CAD /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				DAF082AB1E2F437200365CAD /* ProgressHUD.swift */,
+				DAF082A11E2F42FD00365CAD /* RoundedButton.swift */,
+				DAF082A21E2F42FD00365CAD /* BackgroundView.swift */,
+				DAF082A31E2F42FD00365CAD /* BarProgressView.swift */,
+				DAF082A41E2F42FD00365CAD /* ProgressHUD.bundle */,
+				DAF082A51E2F42FD00365CAD /* RoundProgressView.swift */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF0828A1E2F426C00365CAD /* ProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF0829D1E2F426C00365CAD /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
+			buildPhases = (
+				DAF082871E2F426C00365CAD /* Sources */,
+				DAF082881E2F426C00365CAD /* Frameworks */,
+				DAF082891E2F426C00365CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressHUD;
+			productName = ProgressHUD;
+			productReference = DAF0828B1E2F426C00365CAD /* ProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF082831E2F426C00365CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zero;
+				TargetAttributes = {
+					DAF0828A1E2F426C00365CAD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAF082861E2F426C00365CAD /* Build configuration list for PBXProject "ProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF082821E2F426C00365CAD;
+			productRefGroup = DAF0828C1E2F426C00365CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF0828A1E2F426C00365CAD /* ProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF082891E2F426C00365CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF082A91E2F42FD00365CAD /* ProgressHUD.bundle in Resources */,
+				DAF082991E2F426C00365CAD /* LaunchScreen.storyboard in Resources */,
+				DAF082961E2F426C00365CAD /* Assets.xcassets in Resources */,
+				DAF082941E2F426C00365CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF082871E2F426C00365CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF082911E2F426C00365CAD /* ViewController.swift in Sources */,
+				DAF082A61E2F42FD00365CAD /* RoundedButton.swift in Sources */,
+				DAF082AA1E2F42FD00365CAD /* RoundProgressView.swift in Sources */,
+				DAF082A71E2F42FD00365CAD /* BackgroundView.swift in Sources */,
+				DAF082A81E2F42FD00365CAD /* BarProgressView.swift in Sources */,
+				DAF0828F1E2F426C00365CAD /* AppDelegate.swift in Sources */,
+				DAF082AC1E2F437200365CAD /* ProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAF082921E2F426C00365CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF082931E2F426C00365CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF082971E2F426C00365CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF082981E2F426C00365CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF0829B1E2F426C00365CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF0829C1E2F426C00365CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF0829E1E2F426C00365CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressHUD.ProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DAF0829F1E2F426C00365CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressHUD.ProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF082861E2F426C00365CAD /* Build configuration list for PBXProject "ProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF0829B1E2F426C00365CAD /* Debug */,
+				DAF0829C1E2F426C00365CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF0829D1E2F426C00365CAD /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF0829E1E2F426C00365CAD /* Debug */,
+				DAF0829F1E2F426C00365CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF082831E2F426C00365CAD /* Project object */;
+}
