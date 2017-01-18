@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ProgressHUD.xcodeproj">
+      location = "self:/Users/zero/Documents/project/workspace/ProgressHUD/demo/ZZProgressHUD.xcodeproj">
    </FileRef>
 </Workspace>

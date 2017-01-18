@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DAF0828B1E2F426C00365CAD /* ProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF0828B1E2F426C00365CAD /* ZZProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF0828E1E2F426C00365CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF082901E2F426C00365CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAF082931E2F426C00365CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		DAF082821E2F426C00365CAD = {
 			isa = PBXGroup;
 			children = (
-				DAF0828D1E2F426C00365CAD /* ProgressHUD */,
+				DAF0828D1E2F426C00365CAD /* ZZProgressHUD */,
 				DAF0828C1E2F426C00365CAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		DAF0828C1E2F426C00365CAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAF0828B1E2F426C00365CAD /* ProgressHUD.app */,
+				DAF0828B1E2F426C00365CAD /* ZZProgressHUD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAF0828D1E2F426C00365CAD /* ProgressHUD */ = {
+		DAF0828D1E2F426C00365CAD /* ZZProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
 				DAF082A01E2F429000365CAD /* sources */,
@@ -74,7 +74,7 @@
 				DAF082971E2F426C00365CAD /* LaunchScreen.storyboard */,
 				DAF0829A1E2F426C00365CAD /* Info.plist */,
 			);
-			path = ProgressHUD;
+			path = ZZProgressHUD;
 			sourceTree = "<group>";
 		};
 		DAF082A01E2F429000365CAD /* sources */ = {
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAF0828A1E2F426C00365CAD /* ProgressHUD */ = {
+		DAF0828A1E2F426C00365CAD /* ZZProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAF0829D1E2F426C00365CAD /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
+			buildConfigurationList = DAF0829D1E2F426C00365CAD /* Build configuration list for PBXNativeTarget "ZZProgressHUD" */;
 			buildPhases = (
 				DAF082871E2F426C00365CAD /* Sources */,
 				DAF082881E2F426C00365CAD /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = ProgressHUD;
+			name = ZZProgressHUD;
 			productName = ProgressHUD;
-			productReference = DAF0828B1E2F426C00365CAD /* ProgressHUD.app */;
+			productReference = DAF0828B1E2F426C00365CAD /* ZZProgressHUD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAF082861E2F426C00365CAD /* Build configuration list for PBXProject "ProgressHUD" */;
+			buildConfigurationList = DAF082861E2F426C00365CAD /* Build configuration list for PBXProject "ZZProgressHUD" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAF0828A1E2F426C00365CAD /* ProgressHUD */,
+				DAF0828A1E2F426C00365CAD /* ZZProgressHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -292,9 +292,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				INFOPLIST_FILE = ZZProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressHUD.ProgressHUD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZProgressHUD.ZZProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,9 +304,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				INFOPLIST_FILE = ZZProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressHUD.ProgressHUD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZProgressHUD.ZZProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAF082861E2F426C00365CAD /* Build configuration list for PBXProject "ProgressHUD" */ = {
+		DAF082861E2F426C00365CAD /* Build configuration list for PBXProject "ZZProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAF0829B1E2F426C00365CAD /* Debug */,
@@ -324,13 +324,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAF0829D1E2F426C00365CAD /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
+		DAF0829D1E2F426C00365CAD /* Build configuration list for PBXNativeTarget "ZZProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAF0829E1E2F426C00365CAD /* Debug */,
 				DAF0829F1E2F426C00365CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

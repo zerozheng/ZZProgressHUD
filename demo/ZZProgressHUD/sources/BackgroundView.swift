@@ -1,6 +1,6 @@
 //
 //  BackgroundView.swift
-//  MBProgressHUD
+//  ZZProgressHUD
 //
 //  Created by zero on 17/1/16.
 //  Copyright © 2017年 zero. All rights reserved.

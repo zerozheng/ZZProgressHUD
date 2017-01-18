@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ProgressHUD
+//  ZZProgressHUD
 //
 //  Created by zero on 17/1/18.
 //  Copyright © 2017年 zero. All rights reserved.
