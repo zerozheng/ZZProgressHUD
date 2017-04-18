@@ -109,14 +109,14 @@ internal class BarProgressView: UIView {
             context.addLine(to: CGPoint(x: rect.width - radius - 4, y: 4))
             
             var angle = -acos(x/radius)
-            context.addArc(center: CGPoint(x:rect.width - radius - 4, y:rect.height/2), radius: radius, startAngle: CGFloat(M_PI), endAngle: angle, clockwise: false)
+            context.addArc(center: CGPoint(x:rect.width - radius - 4, y:rect.height/2), radius: radius, startAngle: CGFloat(Double.pi), endAngle: angle, clockwise: false)
             context.addLine(to: CGPoint(x: amount, y: rect.height/2))
             context.move(to: CGPoint(x: 4, y: rect.height/2))
             context.addArc(tangent1End: CGPoint(x:4, y:rect.height-4), tangent2End: CGPoint(x: radius+4, y: rect.height-4), radius: radius)
             context.addLine(to: CGPoint(x: rect.width - radius - 4, y: rect.height - 4))
             angle = acos(x/radius)
             
-            context.addArc(center: CGPoint(x:rect.width - radius - 4, y:rect.height/2), radius: radius, startAngle: CGFloat(-M_PI), endAngle: angle, clockwise: true)
+            context.addArc(center: CGPoint(x:rect.width - radius - 4, y:rect.height/2), radius: radius, startAngle: CGFloat(-Double.pi), endAngle: angle, clockwise: true)
             context.addLine(to: CGPoint(x: amount, y: rect.height/2))
             context.fillPath()
         } else if amount < radius + 4 && amount > 0 {// Progress is in the left arc

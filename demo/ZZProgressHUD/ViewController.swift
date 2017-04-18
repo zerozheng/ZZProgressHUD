@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func click(_ sender: Any) {
-        //ProgressHUD.showSuccess("测试成功", to: self.view)
-        let _ = ProgressHUD.loading(with:"加载中", to: self.view)
+        ProgressHUD.showSuccess("测试成功", to: self.view)
+//        let _ = ProgressHUD.loading(with:"加载中", to: self.view)
     }
     
     override func viewDidLoad() {

@@ -36,14 +36,18 @@ internal class RoundedButton: UIButton {
     
     override func setTitleColor(_ color: UIColor?, for state: UIControlState) {
         super.setTitleColor(color, for: state)
-        (self.isHighlighted) = (self.isHighlighted)
+        updateBackgroundColor()
         self.layer.borderColor = color?.cgColor
     }
     
     override var isHighlighted: Bool {
         didSet {
-            let baseColor = self.titleColor(for: .selected)
-            self.backgroundColor = isHighlighted ? baseColor?.withAlphaComponent(0.1) : UIColor.clear
+            updateBackgroundColor()
         }
+    }
+    
+    private func updateBackgroundColor() {
+        let baseColor = self.titleColor(for: .selected)
+        self.backgroundColor = isHighlighted ? baseColor?.withAlphaComponent(0.1) : UIColor.clear
     }
 }

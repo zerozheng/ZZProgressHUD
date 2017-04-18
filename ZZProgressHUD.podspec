@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZZProgressHUD"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "ZZProgressHUD, a swift version of MBProgressHUD for iOS9 and later  "
   s.description  = <<-DESC
 a swift version of MBProgressHUD for iOS9 and later. you can use this instead if you want to develop in a pure swift environment

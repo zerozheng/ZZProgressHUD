@@ -120,6 +120,7 @@
 				TargetAttributes = {
 					DAF0828A1E2F426C00365CAD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6N947FP7VQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -289,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N947FP7VQ;
 				INFOPLIST_FILE = ZZProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZZProgressHUD.ZZProgressHUD;
@@ -301,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N947FP7VQ;
 				INFOPLIST_FILE = ZZProgressHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZZProgressHUD.ZZProgressHUD;

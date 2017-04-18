@@ -71,8 +71,8 @@ internal class RoundProgressView: UIView {
             processBackgroundPath.lineCapStyle = .butt
             let center = CGPoint(x: self.bounds.midX, y: self.bounds.midY)
             let radius = (self.bounds.width - lineWidth)/2
-            let startAngle = -(CGFloat(M_PI)/2)
-            var endAngle = 2*CGFloat(M_PI) + startAngle
+            let startAngle = CGFloat(-Double.pi/2)
+            var endAngle = 2*CGFloat(Double.pi) + startAngle
             processBackgroundPath.addArc(withCenter: center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: true)
             self.backgroundColor?.set()
             processBackgroundPath.stroke()
@@ -80,7 +80,7 @@ internal class RoundProgressView: UIView {
             let processPath = UIBezierPath()
             processPath.lineCapStyle = .square
             processPath.lineWidth = lineWidth
-            endAngle = self.progress * 2 * CGFloat(M_PI ) + startAngle
+            endAngle = self.progress * 2 * CGFloat(Double.pi) + startAngle
             processPath.addArc(withCenter: center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: true)
             self.progressTintColor.set()
             processPath.stroke()
@@ -94,12 +94,12 @@ internal class RoundProgressView: UIView {
             context.setLineWidth(lineWidth)
             context.strokeEllipse(in: circleRect)
             
-            let startAngle = -CGFloat(M_PI)/2
+            let startAngle = CGFloat(-Double.pi/2)
             let processPath = UIBezierPath()
             processPath.lineCapStyle = .butt
             processPath.lineWidth = lineWidth*2
             let radius = allRect.width/2 - processPath.lineWidth/2
-            let endAngle = self.progress * 2 * CGFloat(M_PI) + startAngle
+            let endAngle = self.progress * 2 * CGFloat(Double.pi) + startAngle
             processPath.addArc(withCenter: center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: true)
             context.setBlendMode(.copy)
             self.progressTintColor.set()
